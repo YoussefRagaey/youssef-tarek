@@ -79,7 +79,7 @@ console.log(value);
       <div className="">
       <h1 className="font-inter text-7xl font-bold">LET`S CONNECT</h1>
       <p className="font-thin text-xl text-white/50 my-4">Say hello at <a className='text-white underline decoration-[rgb(210,232,121)]' href="mailto:tyoussef807@gmail.com">tyoussef807@gmail.com</a></p>
-      <p className="font-thin text-xl text-white/50 my-4">For more info, here`s my <a className='text-white underline decoration-[rgb(210,232,121)]' href="https://drive.google.com/file/d/1A26etoOXNHaZNQ7nzYgpFko8NSCM6BxR/view?usp=sharing">resume</a></p>
+      <p className="font-thin text-xl text-white/50 my-4">For more info, here`s my <a className='text-white underline decoration-[rgb(210,232,121)]' href="https://drive.google.com/file/d/1A26etoOXNHaZNQ7nzYgpFko8NSCM6BxR/view?usp=sharing" target='_blank'>resume</a></p>
       <ul className='flex gap-5 mt-10'>
         <li><a href="https://www.linkedin.com/in/youssef-ragaey-036158241/" className='text-[rgb(210,232,121)] hover:text-white transition-all'><Linkedin/></a></li>
         <li><a href="https://github.com/YoussefRagaey" className='text-[rgb(210,232,121)] hover:text-white transition-all'><Github/></a></li>
