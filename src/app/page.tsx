@@ -33,7 +33,7 @@ export default function Home() {
     <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center gap-10">
     <div className="md:w-1/2 w-full ">
       <div className="bg-white/10 px-20 py-40 rounded-3xl relative my-15 hover:bg-white/20 transition-all duration-300 ease-out hover:-translate-y-3 ">
-        <Image className="w-full rounded-3xl" src={'/Screenshot 2026-02-23 233843.png'} alt="" width={500} height={500}/>
+        <Image className="w-full rounded-3xl" src={'/Screenshot 2026-02-23 233843.png'} alt="Full-featured e-commerce web application" width={500} height={500}/>
       </div>
     </div>
     <div className="md:w-1/2 w-full">
@@ -54,7 +54,7 @@ export default function Home() {
     <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-white/50">
     <div className="md:w-1/2 w-full ">
       <div className="bg-white/10 px-20 py-40 rounded-3xl relative my-15 hover:bg-white/20 transition-all duration-300 ease-out hover:-translate-y-3 ">
-        <Image className="w-full rounded-3xl" src={'/Screenshot 2026-02-23 233020.png'} alt="" width={500} height={500}/>
+        <Image className="w-full rounded-3xl" src={'/Screenshot 2026-02-23 233020.png'} alt="Meals web application" width={500} height={500}/>
       </div>
     </div>
 
@@ -69,6 +69,29 @@ export default function Home() {
       <ul className="mt-10 flex gap-5">
         <li><a href="https://next-meals-app-seven.vercel.app/" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">LIVE DEMO <ArrowUpRight/></a></li>
         <li><a href="https://github.com/YoussefRagaey/next-meals-app" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">SEE ON GITHUB <Github/></a></li>
+      </ul>
+    </div>
+
+    </div>
+
+    <div className="w-[90%] mx-auto flex flex-col md:flex-row items-center gap-10 border-b border-white/50">
+    <div className="md:w-1/2 w-full ">
+      <div className="bg-white/10 px-20 py-40 rounded-3xl relative my-15 hover:bg-white/20 transition-all duration-300 ease-out hover:-translate-y-3 ">
+        <Image className="w-full rounded-3xl" src={'/Screenshot 2026-04-14 174222.png'} alt="Game Reviews web application" width={500} height={500}/>
+      </div>
+    </div>
+
+    <div className="md:w-1/2 w-full">
+      <h1 className="font-inter text-4xl">Game Reviews web application</h1>
+      <p className="font-thin text-xl text-white/50 my-4">A game details and reviews web application is a structured platform that organizes video games into clearly defined categories, making it easy for users to browse and discover content. Each game entry includes specific attributes such as its category (e.g., mmorpg, shooter, super hero), supported platforms (like PC, Web browser), current status (such as released, upcoming, or discontinued), and a detailed description explaining the gameplay, story, and key features. This structured approach ensures consistency in how data is presented while enhancing the user experience by enabling filtering, sorting, and quick access to relevant game information.</p>
+      <ul>
+        <li className="border-b border-b-white/20 mb-2.5 py-2.5">PROJECT INFO</li>
+        <li className="border-b border-b-white/20 mb-2.5 py-2.5 flex justify-between items-center"><p>Year</p><span className="font-thin text-l text-white/50">2026</span></li>
+        <li className="border-b border-b-white/20 mb-2.5 py-2.5 flex justify-between items-center"><p>Role</p><span className="font-thin text-l text-white/50">Front-End-Developer</span></li>
+      </ul>
+      <ul className="mt-10 flex gap-5">
+        <li><a href="https://games-next-eviw-git-main-youssefs-projects-f95ea508.vercel.app/" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">LIVE DEMO <ArrowUpRight/></a></li>
+        <li><a href="https://github.com/YoussefRagaey/games-next" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">SEE ON GITHUB <Github/></a></li>
       </ul>
     </div>
 
