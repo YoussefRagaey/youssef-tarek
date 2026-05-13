@@ -22,6 +22,8 @@ import { Loader2 } from "lucide-react"
 import { useRouter } from "next/navigation";
 import { Textarea } from '@/components/ui/textarea'
 import { Contacti } from '@/types/contactformi'
+import Swal from 'sweetalert2'
+
 export default function Connect() {
 
   const router = useRouter();
@@ -60,10 +62,19 @@ console.log(value);
     })
 
     if (res.ok) {
-      alert("Message sent successfully!")
+      // alert("Message sent successfully!")
+      Swal.fire({
+  title: "Message sent successfully!",
+  icon: "success"
+});
+
       form.reset()
     } else {
-      alert("Something went wrong.")
+      // alert("Something went wrong.")
+      Swal.fire({
+  title: "Something went wrong.",
+  icon: "error"
+});
     }
 
   } catch (error) {
@@ -188,7 +199,7 @@ console.log(value);
       </CardContent>
       <CardFooter>
         <Field orientation="horizontal">
-          <Button type="submit" form="form-rhf-demo" className={`rounded-full bg-[rgb(210,232,121)] text-black hover:bg-[rgb(210,232,121)] hover:text-black cursor-pointer ${isloading&&"opacity-50"}`} disabled={isloading}>
+          <Button type="submit" form="form-rhf-demo" className={`rounded-full bg-[rgb(210,232,121)] text-black hover:bg-[rgb(210,232,121)] hover:text-black cursor-pointer ${isloading&&"opacity-50 cursor-not-allowed"}`} disabled={isloading}>
             {isloading? <Loader2 className="animate-spin"/>:""}Submit
           </Button>
         </Field>
