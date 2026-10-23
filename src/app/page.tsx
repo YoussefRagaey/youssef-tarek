@@ -90,7 +90,7 @@ export default function Home() {
         <li className="border-b border-b-white/20 mb-2.5 py-2.5 flex justify-between items-center"><p>Role</p><span className="font-thin text-l text-white/50">Front-End-Developer</span></li>
       </ul>
       <ul className="mt-10 flex gap-5">
-        <li><a href="https://games-next-eviw-git-main-youssefs-projects-f95ea508.vercel.app/" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">LIVE DEMO <ArrowUpRight/></a></li>
+        <li><a href="https://games-next-eviw-ozaw7utch-youssefs-projects-f95ea508.vercel.app/" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">LIVE DEMO <ArrowUpRight/></a></li>
         <li><a href="https://github.com/YoussefRagaey/games-next" target="_blank" className="flex text-[rgb(210,232,121)] border-b border-[rgb(210,232,121)] pb-1 gap-1">SEE ON GITHUB <Github/></a></li>
       </ul>
     </div>
